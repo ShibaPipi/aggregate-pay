@@ -1,0 +1,30 @@
+{
+    "name": "shibapipi/pay",
+    "description": "Third-party payment SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sun.yaopeng",
+            "email": "906262260@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shibapipi\\Pay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shibapipi\\Pay\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shibapipi\\Pay\\ServiceProvider"
+            ]
+        }
+    }
+}
